@@ -7,3 +7,7 @@
 	4) 原代码assume发帖日期格式是xxxx-xx-xx, 但是实际上日期格式有两种 a) 06-09 10:31, b) 2018-04-02, 当日期格式是a)的时候，代码不能编译。把这个修复了。
 	5) 多加了几个stopwords的来源，原包里的stopwords只有英文，“的”，“你”这种词都没有过滤掉
 	6) 增加了一个图: 回复的词云
+	7) 原来爬所有回复页的代码无法compile(i.e when passing in parameter allPages to get_content), 修复了，代码现在可以爬所有的回复页。
+3. TODOs:
+1) 解决登陆问题
+2) 加代理
